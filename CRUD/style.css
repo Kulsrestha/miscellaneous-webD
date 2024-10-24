@@ -1,0 +1,125 @@
+body {
+    background: linear-gradient(135deg, #153677, #4e085f);
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+}
+
+table {
+    width: 80%;
+    margin: 40px auto;
+    background-color: rgb(124, 154, 167);
+}
+
+table .list {
+    text-align: center;
+    width: 100%;
+}
+
+td {
+    border: 1px solid rgb(204, 200, 200);
+    text-align: left;
+    padding: 8px 15px;
+}
+
+th {
+    padding: 10px 15px;
+    background-color: rgb(204, 200, 200);
+}
+
+tr:nth-child(even) {
+    background-color: rgb(204, 200, 200);
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 91%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165, 161, 161);
+    border-radius: 4px;
+}
+
+
+input[type="submit"],
+input[type="reset"] {
+    background: #eee;
+    padding: 6px 12px;
+    margin: 15px 0px 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover {
+    background-color: #4b99d8;
+}
+
+input[type="reset"]:hover {
+    background-color: #4b99d8;
+}
+
+
+button {
+    background: #eee;
+    padding: 6px 12px;
+    margin: 15px 0px 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background-color: #4b99d8;
+}
+
+/* Style for Edit button */
+.edit-btn {
+    background: #4CAF50; /* Green background */
+    padding: 6px 12px;
+    margin: 5px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline */
+    color: white; /* White text color */
+}
+
+.edit-btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Style for Delete button */
+.delete-btn {
+    background: #f44336; /* Red background */
+    padding: 6px 12px;
+    margin: 5px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline */
+    color: white; /* White text color */
+}
+
+.delete-btn:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}

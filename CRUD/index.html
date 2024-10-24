@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Operations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Product Management</h2>
+        <form id="productForm" autocomplete="off" onsubmit="onFormSubmit(event)">
+            <div>
+                <label for="productCode">Product Code</label>
+                <input type="text" name="productCode" id="productCode">
+            </div>
+            <div>
+                <label for="productName">Product Name</label>
+                <input type="text" name="productName" id="productName">
+            </div>
+            <div>
+                <label for="qty">Quantity</label>
+                <input type="number" name="qty" id="qty">
+            </div>
+            <div>
+                <label for="productPrice">Price</label>
+                <input type="number" name="productPrice" id="productPrice">
+            </div>
+            <div class="form-action">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+        <h2>Product Inventory</h2>
+        <table class="list" id="storeList">
+            <thead>
+                <tr>
+                    <th>Product Code</th>
+                    <th>Product Name</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Product rows will be dynamically inserted here -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

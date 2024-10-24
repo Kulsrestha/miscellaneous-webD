@@ -1,0 +1,66 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #F0F0F0;
+    background-image: url('osmosysLogo.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+
+.card{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child{
+    border: none;
+    height: 330px;
+    width: 300px;
+    /* margin-top: 13%;
+    margin-left: 36%; */
+    box-shadow: 1px 1px 15px 1px grey ;
+}
+
+form h2{
+    margin-left: 100px;
+    padding-top: 13px;
+}
+
+#emailorPhone{
+    border: 2px solid rgb(230, 230, 230);
+    border-radius: 5px;
+    padding: 13px;
+    margin: 15px;
+    width: 75%;
+}
+#password{
+    border: 2px solid rgb(230, 230, 230);
+    border-radius: 5px;
+    padding: 13px;
+    margin: 15px;
+    width: 75%;
+}
+
+#button{
+    color: white;
+    background-color: #0a66c2;
+    padding: 20px;
+    margin: 18px;
+    width: 86%;
+    border-radius: 10px ;
+    border: none;
+    transition: 0.5s;
+}
+
+#button:hover{
+    background-color: #4cae4c;
+    color:blue;
+    cursor: pointer;
+    
+}
+
+
+

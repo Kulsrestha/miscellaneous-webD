@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <form action="/loginSuccess" method="GET" onsubmit="return validateForm()">
+            <div class="child">    
+                <h2>Login</h2>
+                <input id="emailorPhone" name="emailorPhone" type="text" placeholder="Email or Phone" required>
+                <input id="password" name="password" type="password" placeholder="password" required>
+                <input id="button" type="submit" value="Login">
+            </div>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reddit+Sans+Condensed:wght@200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Library Management</h1>
+        <div class="form-section">
+            <h2>Add a Book</h2>
+            <form id="book-form">
+                <input type="text" id="book-title" placeholder="Book Name">
+                <input type="text" id="book-author" placeholder="Author Name">
+                <input type="number" id="ISBN-No" placeholder="ISBN Number">
+                <button type="submit">Add Book</button>
+            </form>
+        </div>
+
+        <div class="list-section">
+            <h2>Book List</h2>
+            <table id="book-list">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>ISBN</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Books will be dynamically added here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
